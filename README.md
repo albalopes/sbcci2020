@@ -6,6 +6,7 @@ Check this project <a href="https://github.com/albalopes/sbcci2020/wiki/">Wiki</
 
 In this repository, we provide:
 <ul>
-  <li> benchmarks folder: the subset of Mibench benchmarks used in our experiments (); </li>
-  <li> dataset folder: the datasets we created to train the regression models. These databases were created after simulating the target platforms using gem5 tool);   <li> error_predicion folder: the prediction values after testing the predictive models. We saved these values to calculate de Mean Absolute Error once Weka do not provide this metric as default. In this folder, we also provide the python script used to calculate this metric.
+  <li> <b>benchmarks folder</b>: the subset of Mibench benchmarks used in our experiments (); </li>
+  <li> <b>dataset folder: </b>the datasets we created to train the regression models. These databases were created after simulating the target platforms using gem5 tool);   
+  <li> <b>error_predicion folder</b>: the prediction values after testing the predictive models. We saved these values to calculate de Mean Absolute Error once Weka do not provide this metric as default. In this folder, we also provide the python script used to calculate this metric.
 </ul>
