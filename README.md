@@ -4,4 +4,8 @@ For more details of our work, please consult our paper <b>"A Machine Learning Ap
 
 Check this project <a href="https://github.com/albalopes/sbcci2020/wiki/">Wiki</a> page for details of the benchmarks, regression models descriptions and hyperparameters used to set the ML algorithms used in our experiments.
 
-In this repository, we provide the subset of Mibench benchmarks used in our experiments; the datasets we created to train the regression models; and the predicion outputs values after testing the created regression models. The prediction values were used to calculate de Mean Absolute Error. This was necessary once Weka do not provide this metric as default.
+In this repository, we provide:
+<ul>
+  <li> benchmarks folder: the subset of Mibench benchmarks used in our experiments (); </li>
+  <li> dataset folder: the datasets we created to train the regression models. These databases were created after simulating the target platforms using gem5 tool);   <li> error_predicion folder: the prediction values after testing the predictive models. We saved these values to calculate de Mean Absolute Error once Weka do not provide this metric as default. In this folder, we also provide the python script used to calculate this metric.
+</ul>
