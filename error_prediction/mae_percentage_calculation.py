@@ -28,7 +28,7 @@ print(*models, sep = ", ")
 for app in apps:
     r_models = []
     for ml in models:
-        y_true, y_pred, y_diff = read_file('outputs_per_model/'ml+'_'+app+'_error.csv', ',')
+        y_true, y_pred, y_diff = read_file('outputs_per_model/'+ml+'_'+app+'_error.csv', ',')
         mape = mean_absolute_percentage_error(y_true, y_pred)
         r_models.append(mape)
     print(app, *r_models, sep= ", ")
